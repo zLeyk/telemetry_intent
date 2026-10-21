@@ -1,0 +1,210 @@
+{
+  "format_version": 1,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 93,
+      "sha256": "3cad1527f985b91e455169295cd0b35a112705fafef9a27fbe53968c694a3d40"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5958,
+      "sha256": "10eaf20c1742b717799bc82e36c3567e9d910f2ee29cd353f6afdfb59f0ed1af"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 5005,
+      "sha256": "a345d7155e3283232607a482fa27ed175f5e3be8ff73ec73a8c619c8056f0cfe"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1321,
+      "sha256": "2a7cb61e2b1b238d65905b974791421281aea144a7b822b0339282e0d903bc36"
+    },
+    {
+      "path": "check_package.py",
+      "bytes": 775,
+      "sha256": "da54a5d663596cc072ddf778c9dd0d4201fd15e06cae71bbab2aee3536e63291"
+    },
+    {
+      "path": "examples/cards.jsonl",
+      "bytes": 2179,
+      "sha256": "61feb622cc8a8b0c00ec8fe395d8d6c4bd4c0f0d918d994a324313c5024f7c8c"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 407,
+      "sha256": "4bec3b58816a380947a5ad3d504691149b5611813427784154f1b5e69c0aeb18"
+    },
+    {
+      "path": "run.py",
+      "bytes": 270,
+      "sha256": "4da2fe83cd1b55091d14192fb464f39f094301448c241523b345b17474accef6"
+    },
+    {
+      "path": "run_tests.py",
+      "bytes": 420,
+      "sha256": "a9a2098efe76620287835ecbdfae3c38055f94cfbfd0224f39b7cd35fe84ccd7"
+    },
+    {
+      "path": "src/telemetry_chatito/__init__.py",
+      "bytes": 335,
+      "sha256": "39bf1f1d5bf2cd368576a9d4426b7f8374d35e674be69cd8043ff69fbcf2075d"
+    },
+    {
+      "path": "src/telemetry_chatito/base_renderer.py",
+      "bytes": 17464,
+      "sha256": "1e1bec07fab87c42459300542cd65248914af380f63549f44d0ed1f13ba4a252"
+    },
+    {
+      "path": "src/telemetry_chatito/chatito.py",
+      "bytes": 3609,
+      "sha256": "9c6beebb6a64644b1c84432b605dcc58cef71db1849edbc054dc505ebc453a0f"
+    },
+    {
+      "path": "src/telemetry_chatito/cli.py",
+      "bytes": 8461,
+      "sha256": "a6641f799e5de9d8c1c7a66a51e7f6a4ad7e2d10820f3afd339145de41e0903c"
+    },
+    {
+      "path": "src/telemetry_chatito/renderer.py",
+      "bytes": 21725,
+      "sha256": "df77354c4bc2325fa3685c74acadec06b0973b8b0dbbd5e96acd54f8ffaf0dc5"
+    },
+    {
+      "path": "src/telemetry_chatito/vocabulary.py",
+      "bytes": 674,
+      "sha256": "046ec83a8043f36adaa21d6a6d35678dad824c291b24c366f5d8ff26c4d95fee"
+    },
+    {
+      "path": "tests/test_cli.py",
+      "bytes": 3310,
+      "sha256": "ad3430a50aa4625705f3faef9395ae093da4ecc4bf95a4f4811570e1af1b9dcb"
+    },
+    {
+      "path": "tests/test_renderer.py",
+      "bytes": 10016,
+      "sha256": "d693c82b7596c7cb3ef07065e4e096e2a1f65797146fec8e9cd462c62330f06b"
+    },
+    {
+      "path": "vendor/chatito/LICENSE",
+      "bytes": 1073,
+      "sha256": "f14a1ab770a75b2d04643578d5fa945790d24289a82172c65db5e601005599b1"
+    },
+    {
+      "path": "vendor/chatito/SOURCE_FILES.json",
+      "bytes": 1972,
+      "sha256": "96192f6a85fe8936e9131830f6b30e5437cb7d9db341832212ac8925fd889d12"
+    },
+    {
+      "path": "vendor/chatito/package-lock.json",
+      "bytes": 4639,
+      "sha256": "6382f12a6d45abc2af30800f42b130cacb211c806db423ebaa27c7eee3eb804f"
+    },
+    {
+      "path": "vendor/chatito/package.json",
+      "bytes": 393,
+      "sha256": "e311a5e677727b8e5fae8afbb417e97620f24fc6eaa0cbb904921578bb70c14d"
+    },
+    {
+      "path": "vendor/chatito/parser/chatito.js",
+      "bytes": 96134,
+      "sha256": "226d802b48edc9b41b26c8341302d3f916fdb5c21be0612cab7d8281fed9fcc2"
+    },
+    {
+      "path": "vendor/chatito/parser/chatito.pegjs",
+      "bytes": 6296,
+      "sha256": "62f273084f68a239289099fb2304e1f5c44817667d7308e155af3b92831395c7"
+    },
+    {
+      "path": "vendor/chatito/src/adapters/flair.ts",
+      "bytes": 2450,
+      "sha256": "a07eb73228fec075643510120a64b961ecc82a6058a20c1815716e9a6802df10"
+    },
+    {
+      "path": "vendor/chatito/src/adapters/luis.ts",
+      "bytes": 1725,
+      "sha256": "10e0c91ee1eb05ba9ab85e54a0480671a20a06fa7b4a3982ebe8c04bc54149c2"
+    },
+    {
+      "path": "vendor/chatito/src/adapters/rasa.ts",
+      "bytes": 2699,
+      "sha256": "10a541974497ca997ed8d4ebf4d1835b983a96563f6dc5d0e4ba866218465b5d"
+    },
+    {
+      "path": "vendor/chatito/src/adapters/snips.ts",
+      "bytes": 4256,
+      "sha256": "ec626a88b808d788dc6a088fea0fe6bd7c0f0930327b48574b95eaf386a2eaa6"
+    },
+    {
+      "path": "vendor/chatito/src/adapters/web.ts",
+      "bytes": 896,
+      "sha256": "ebd2d3812b22c5b5e2f19e7a9d47078003ee758e5f022cbd1a1009dc8a0ca77b"
+    },
+    {
+      "path": "vendor/chatito/src/bin.ts",
+      "bytes": 8493,
+      "sha256": "31abc014e148ff4207f935f839192795ae838fe1ffad466b48cfa72738bcd521"
+    },
+    {
+      "path": "vendor/chatito/src/main.ts",
+      "bytes": 30207,
+      "sha256": "56e47cb2de6e0e46b6fa46ba8e5b3c869118b0f4f5f578a7322242b5d336246f"
+    },
+    {
+      "path": "vendor/chatito/src/simpleTokenizer.ts",
+      "bytes": 319,
+      "sha256": "8c5ba2656f2127d7e8e25897f0caaa31723c5351afd9b6c44af5997a123a4026"
+    },
+    {
+      "path": "vendor/chatito/src/types.ts",
+      "bytes": 1903,
+      "sha256": "d03d6cb0679f50f5eeea1f349ee173991ed87f0a1ce317749cb502e9cc0fbbf3"
+    },
+    {
+      "path": "vendor/chatito/src/utils.ts",
+      "bytes": 1113,
+      "sha256": "582c1e5d6c94ee45fe645a72b0b1df6ffcd0b3f66cde0834c8f6765798311846"
+    },
+    {
+      "path": "vendor/chatito/tsconfig.json",
+      "bytes": 350,
+      "sha256": "61257427cf8b49f884fe6bba2bfc07b50866d4bc2560f8bb0c0e9f3326751e4b"
+    },
+    {
+      "path": "verification/checks.json",
+      "bytes": 481,
+      "sha256": "4451049b3076205aa8245f44a5d534517e509e79150b9fe60e822092138f6b3f"
+    },
+    {
+      "path": "verification/demo/chatito_raw.json",
+      "bytes": 12985,
+      "sha256": "c00e8fe98593a554003a1061f46f253c40421f88d60266d9b0032504ddd3a2f1"
+    },
+    {
+      "path": "verification/demo/manifest.json",
+      "bytes": 1599,
+      "sha256": "8b8b7e4621ad5b4ff9200902c070c2e0da5d6a22ed2777a83b52fa3c704e7b08"
+    },
+    {
+      "path": "verification/demo/selected.jsonl",
+      "bytes": 3576,
+      "sha256": "2b4701eb77c7c112d7a0e7cd02064ef4cf9faf85db1c73e6f78a54ad15e1bb90"
+    },
+    {
+      "path": "verification/demo/templates.chatito",
+      "bytes": 12444,
+      "sha256": "3422fd091e0918372ec2f16259c4f75f55f77eddc7374271d3509d5dba669db7"
+    },
+    {
+      "path": "verification/demo/variants.jsonl",
+      "bytes": 30521,
+      "sha256": "1a20b7019f400345c596efa7e9b1c2a71dbb7b18e4e775ca1fe01d9a8ede75c6"
+    },
+    {
+      "path": "verification/linux_manifest.json",
+      "bytes": 1599,
+      "sha256": "e907a6851e592069b1e7d69cd38ee52e37484b042521b19aed8c27be088fb4cb"
+    }
+  ]
+}

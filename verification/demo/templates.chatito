@@ -1,0 +1,311 @@
+# Generated from user-supplied telemetry semantic specifications.
+# Three deterministic realizations per input specification.
+
+%[telemetry_demo_filter_delivery]('training': '3', 'distribution': 'even')
+    Record @[telemetry_demo_filter_delivery_v1_metric_01] @[telemetry_demo_filter_delivery_v1_region_02] for traffic where @[telemetry_demo_filter_delivery_v1_flow_condition_03] and @[telemetry_demo_filter_delivery_v1_flow_condition_04]. @[telemetry_demo_filter_delivery_v1_deliver_kind_05] the results @[telemetry_demo_filter_delivery_v1_deliver_time_06] to @[telemetry_demo_filter_delivery_v1_deliver_destination_07].
+    For traffic where @[telemetry_demo_filter_delivery_v2_flow_condition_01] and @[telemetry_demo_filter_delivery_v2_flow_condition_02], track @[telemetry_demo_filter_delivery_v2_metric_03] @[telemetry_demo_filter_delivery_v2_region_04]. @[telemetry_demo_filter_delivery_v2_deliver_kind_05] the results @[telemetry_demo_filter_delivery_v2_deliver_time_06] to @[telemetry_demo_filter_delivery_v2_deliver_destination_07].
+    Capture @[telemetry_demo_filter_delivery_v3_metric_01] @[telemetry_demo_filter_delivery_v3_region_02] for traffic where @[telemetry_demo_filter_delivery_v3_flow_condition_03] and @[telemetry_demo_filter_delivery_v3_flow_condition_04]. @[telemetry_demo_filter_delivery_v3_deliver_kind_05] the results @[telemetry_demo_filter_delivery_v3_deliver_time_06] to @[telemetry_demo_filter_delivery_v3_deliver_destination_07].
+
+%[telemetry_demo_multi_metric]('training': '3', 'distribution': 'even')
+    Record @[telemetry_demo_multi_metric_v1_metric_01] and @[telemetry_demo_multi_metric_v1_metric_02] @[telemetry_demo_multi_metric_v1_region_03], @[telemetry_demo_multi_metric_v1_acquire_time_04].
+    Track @[telemetry_demo_multi_metric_v2_metric_01] and @[telemetry_demo_multi_metric_v2_metric_02] @[telemetry_demo_multi_metric_v2_region_03], @[telemetry_demo_multi_metric_v2_acquire_time_04].
+    @[telemetry_demo_multi_metric_v3_metric_01] and @[telemetry_demo_multi_metric_v3_metric_02] should be kept under observation @[telemetry_demo_multi_metric_v3_region_03], @[telemetry_demo_multi_metric_v3_acquire_time_04].
+
+%[telemetry_demo_ordered_path]('training': '3', 'distribution': 'even')
+    Monitor @[telemetry_demo_ordered_path_v1_metric_01] @[telemetry_demo_ordered_path_v1_region_type_02] from @[telemetry_demo_ordered_path_v1_region_start_03] via @[telemetry_demo_ordered_path_v1_region_via_04], then @[telemetry_demo_ordered_path_v1_region_via_05] to @[telemetry_demo_ordered_path_v1_region_end_06].
+    Can you check the @[telemetry_demo_ordered_path_v2_metric_01] @[telemetry_demo_ordered_path_v2_region_type_02] from @[telemetry_demo_ordered_path_v2_region_start_03] via @[telemetry_demo_ordered_path_v2_region_via_04], then @[telemetry_demo_ordered_path_v2_region_via_05] to @[telemetry_demo_ordered_path_v2_region_end_06]?
+    @[telemetry_demo_ordered_path_v3_metric_01] needs to be tracked @[telemetry_demo_ordered_path_v3_region_type_02] from @[telemetry_demo_ordered_path_v3_region_start_03] via @[telemetry_demo_ordered_path_v3_region_via_04], then @[telemetry_demo_ordered_path_v3_region_via_05] to @[telemetry_demo_ordered_path_v3_region_end_06].
+
+%[telemetry_demo_single]('training': '3', 'distribution': 'even')
+    Observe @[telemetry_demo_single_v1_metric_01] @[telemetry_demo_single_v1_region_02].
+    Could you provide the current @[telemetry_demo_single_v2_metric_01] @[telemetry_demo_single_v2_region_02]?
+    @[telemetry_demo_single_v3_metric_01] requires monitoring @[telemetry_demo_single_v3_region_02].
+
+%[telemetry_demo_time_roles]('training': '3', 'distribution': 'even')
+    @[telemetry_demo_time_roles_v1_acquire_mode_01] @[telemetry_demo_time_roles_v1_metric_02] @[telemetry_demo_time_roles_v1_region_03], @[telemetry_demo_time_roles_v1_acquire_time_04]. Compute the @[telemetry_demo_time_roles_v1_aggregate_operator_05] @[telemetry_demo_time_roles_v1_aggregate_scope_06], @[telemetry_demo_time_roles_v1_aggregate_stride_07].
+    @[telemetry_demo_time_roles_v2_acquire_mode_01] @[telemetry_demo_time_roles_v2_metric_02] @[telemetry_demo_time_roles_v2_region_03], @[telemetry_demo_time_roles_v2_acquire_time_04]. Calculate the @[telemetry_demo_time_roles_v2_aggregate_operator_05] @[telemetry_demo_time_roles_v2_aggregate_scope_06], @[telemetry_demo_time_roles_v2_aggregate_stride_07].
+    @[telemetry_demo_time_roles_v3_acquire_mode_01] @[telemetry_demo_time_roles_v3_metric_02] @[telemetry_demo_time_roles_v3_region_03], @[telemetry_demo_time_roles_v3_acquire_time_04]. Return the @[telemetry_demo_time_roles_v3_aggregate_operator_05] @[telemetry_demo_time_roles_v3_aggregate_scope_06], @[telemetry_demo_time_roles_v3_aggregate_stride_07].
+
+%[telemetry_demo_two_tasks]('training': '3', 'distribution': 'even')
+    @[telemetry_demo_two_tasks_v1_task_relation_01] observe @[telemetry_demo_two_tasks_v1_metric_02] @[telemetry_demo_two_tasks_v1_region_03]. Separately, observe @[telemetry_demo_two_tasks_v1_metric_04] @[telemetry_demo_two_tasks_v1_region_05].
+    @[telemetry_demo_two_tasks_v2_task_relation_01] record @[telemetry_demo_two_tasks_v2_metric_02] @[telemetry_demo_two_tasks_v2_region_03]. Separately, record @[telemetry_demo_two_tasks_v2_metric_04] @[telemetry_demo_two_tasks_v2_region_05].
+    @[telemetry_demo_two_tasks_v3_task_relation_01] @[telemetry_demo_two_tasks_v3_metric_02] requires monitoring @[telemetry_demo_two_tasks_v3_region_03]. Also, @[telemetry_demo_two_tasks_v3_metric_04] requires monitoring @[telemetry_demo_two_tasks_v3_region_05].
+
+@[telemetry_demo_filter_delivery_v1_metric_01]
+    packet count
+
+@[telemetry_demo_filter_delivery_v1_region_02]
+    on interface Ethernet6/1 on demo-sw-F
+
+@[telemetry_demo_filter_delivery_v1_flow_condition_03]
+    protocol is udp
+
+@[telemetry_demo_filter_delivery_v1_flow_condition_04]
+    destination port is 5353
+
+@[telemetry_demo_filter_delivery_v1_deliver_kind_05]
+    Report
+
+@[telemetry_demo_filter_delivery_v1_deliver_time_06]
+    every 13 seconds
+
+@[telemetry_demo_filter_delivery_v1_deliver_destination_07]
+    the telemetry collector named demo-collector-G
+
+@[telemetry_demo_filter_delivery_v2_flow_condition_01]
+    protocol equals udp
+
+@[telemetry_demo_filter_delivery_v2_flow_condition_02]
+    destination port equals 5353
+
+@[telemetry_demo_filter_delivery_v2_metric_03]
+    packet count
+
+@[telemetry_demo_filter_delivery_v2_region_04]
+    on interface Ethernet6/1 on demo-sw-F
+
+@[telemetry_demo_filter_delivery_v2_deliver_kind_05]
+    Report
+
+@[telemetry_demo_filter_delivery_v2_deliver_time_06]
+    every 13 seconds
+
+@[telemetry_demo_filter_delivery_v2_deliver_destination_07]
+    the telemetry collector named demo-collector-G
+
+@[telemetry_demo_filter_delivery_v3_metric_01]
+    packet count
+
+@[telemetry_demo_filter_delivery_v3_region_02]
+    on interface Ethernet6/1 on demo-sw-F
+
+@[telemetry_demo_filter_delivery_v3_flow_condition_03]
+    protocol matches udp
+
+@[telemetry_demo_filter_delivery_v3_flow_condition_04]
+    destination port matches 5353
+
+@[telemetry_demo_filter_delivery_v3_deliver_kind_05]
+    Report
+
+@[telemetry_demo_filter_delivery_v3_deliver_time_06]
+    every 13 seconds
+
+@[telemetry_demo_filter_delivery_v3_deliver_destination_07]
+    the telemetry collector named demo-collector-G
+
+@[telemetry_demo_multi_metric_v1_metric_01]
+    packet count
+
+@[telemetry_demo_multi_metric_v1_metric_02]
+    traffic throughput
+
+@[telemetry_demo_multi_metric_v1_region_03]
+    on interface Ethernet3/2 on demo-sw-B
+
+@[telemetry_demo_multi_metric_v1_acquire_time_04]
+    sampling every 2 seconds
+
+@[telemetry_demo_multi_metric_v2_metric_01]
+    packet count
+
+@[telemetry_demo_multi_metric_v2_metric_02]
+    traffic throughput
+
+@[telemetry_demo_multi_metric_v2_region_03]
+    on interface Ethernet3/2 on demo-sw-B
+
+@[telemetry_demo_multi_metric_v2_acquire_time_04]
+    sampling every 2 seconds
+
+@[telemetry_demo_multi_metric_v3_metric_01]
+    Packet count
+
+@[telemetry_demo_multi_metric_v3_metric_02]
+    traffic throughput
+
+@[telemetry_demo_multi_metric_v3_region_03]
+    on interface Ethernet3/2 on demo-sw-B
+
+@[telemetry_demo_multi_metric_v3_acquire_time_04]
+    sampling every 2 seconds
+
+@[telemetry_demo_ordered_path_v1_metric_01]
+    end-to-end path latency
+
+@[telemetry_demo_ordered_path_v1_region_type_02]
+    along the path
+
+@[telemetry_demo_ordered_path_v1_region_start_03]
+    demo-edge-A
+
+@[telemetry_demo_ordered_path_v1_region_via_04]
+    demo-relay-B
+
+@[telemetry_demo_ordered_path_v1_region_via_05]
+    demo-relay-C
+
+@[telemetry_demo_ordered_path_v1_region_end_06]
+    demo-edge-D
+
+@[telemetry_demo_ordered_path_v2_metric_01]
+    end-to-end path latency
+
+@[telemetry_demo_ordered_path_v2_region_type_02]
+    along the path
+
+@[telemetry_demo_ordered_path_v2_region_start_03]
+    demo-edge-A
+
+@[telemetry_demo_ordered_path_v2_region_via_04]
+    demo-relay-B
+
+@[telemetry_demo_ordered_path_v2_region_via_05]
+    demo-relay-C
+
+@[telemetry_demo_ordered_path_v2_region_end_06]
+    demo-edge-D
+
+@[telemetry_demo_ordered_path_v3_metric_01]
+    End-to-end path latency
+
+@[telemetry_demo_ordered_path_v3_region_type_02]
+    along the path
+
+@[telemetry_demo_ordered_path_v3_region_start_03]
+    demo-edge-A
+
+@[telemetry_demo_ordered_path_v3_region_via_04]
+    demo-relay-B
+
+@[telemetry_demo_ordered_path_v3_region_via_05]
+    demo-relay-C
+
+@[telemetry_demo_ordered_path_v3_region_end_06]
+    demo-edge-D
+
+@[telemetry_demo_single_v1_metric_01]
+    device CPU usage
+
+@[telemetry_demo_single_v1_region_02]
+    on device demo-sw-A
+
+@[telemetry_demo_single_v2_metric_01]
+    device CPU usage
+
+@[telemetry_demo_single_v2_region_02]
+    on device demo-sw-A
+
+@[telemetry_demo_single_v3_metric_01]
+    Device CPU usage
+
+@[telemetry_demo_single_v3_region_02]
+    on device demo-sw-A
+
+@[telemetry_demo_time_roles_v1_acquire_mode_01]
+    Poll
+
+@[telemetry_demo_time_roles_v1_metric_02]
+    queue occupancy
+
+@[telemetry_demo_time_roles_v1_region_03]
+    on interface Ethernet4/3 on demo-sw-C
+
+@[telemetry_demo_time_roles_v1_acquire_time_04]
+    sampling every 250 milliseconds
+
+@[telemetry_demo_time_roles_v1_aggregate_operator_05]
+    95th percentile
+
+@[telemetry_demo_time_roles_v1_aggregate_scope_06]
+    over 23-second windows
+
+@[telemetry_demo_time_roles_v1_aggregate_stride_07]
+    starting a new window every 7 seconds
+
+@[telemetry_demo_time_roles_v2_acquire_mode_01]
+    Use polling to collect
+
+@[telemetry_demo_time_roles_v2_metric_02]
+    queue occupancy
+
+@[telemetry_demo_time_roles_v2_region_03]
+    on interface Ethernet4/3 on demo-sw-C
+
+@[telemetry_demo_time_roles_v2_acquire_time_04]
+    sampling every 250 milliseconds
+
+@[telemetry_demo_time_roles_v2_aggregate_operator_05]
+    95th percentile
+
+@[telemetry_demo_time_roles_v2_aggregate_scope_06]
+    over 23-second windows
+
+@[telemetry_demo_time_roles_v2_aggregate_stride_07]
+    starting a new window every 7 seconds
+
+@[telemetry_demo_time_roles_v3_acquire_mode_01]
+    Use polling to measure
+
+@[telemetry_demo_time_roles_v3_metric_02]
+    queue occupancy
+
+@[telemetry_demo_time_roles_v3_region_03]
+    on interface Ethernet4/3 on demo-sw-C
+
+@[telemetry_demo_time_roles_v3_acquire_time_04]
+    sampling every 250 milliseconds
+
+@[telemetry_demo_time_roles_v3_aggregate_operator_05]
+    95th percentile
+
+@[telemetry_demo_time_roles_v3_aggregate_scope_06]
+    over 23-second windows
+
+@[telemetry_demo_time_roles_v3_aggregate_stride_07]
+    starting a new window every 7 seconds
+
+@[telemetry_demo_two_tasks_v1_task_relation_01]
+    Run two independent observation tasks:
+
+@[telemetry_demo_two_tasks_v1_metric_02]
+    device CPU usage
+
+@[telemetry_demo_two_tasks_v1_region_03]
+    on device demo-sw-D
+
+@[telemetry_demo_two_tasks_v1_metric_04]
+    device memory usage
+
+@[telemetry_demo_two_tasks_v1_region_05]
+    on device demo-sw-E
+
+@[telemetry_demo_two_tasks_v2_task_relation_01]
+    Run two independent observation tasks:
+
+@[telemetry_demo_two_tasks_v2_metric_02]
+    device CPU usage
+
+@[telemetry_demo_two_tasks_v2_region_03]
+    on device demo-sw-D
+
+@[telemetry_demo_two_tasks_v2_metric_04]
+    device memory usage
+
+@[telemetry_demo_two_tasks_v2_region_05]
+    on device demo-sw-E
+
+@[telemetry_demo_two_tasks_v3_task_relation_01]
+    Handle both observations:
+
+@[telemetry_demo_two_tasks_v3_metric_02]
+    device CPU usage
+
+@[telemetry_demo_two_tasks_v3_region_03]
+    on device demo-sw-D
+
+@[telemetry_demo_two_tasks_v3_metric_04]
+    device memory usage
+
+@[telemetry_demo_two_tasks_v3_region_05]
+    on device demo-sw-E

@@ -1,0 +1,32 @@
+{
+  "format_version": 1,
+  "generator": "telemetry-chatito-generator 0.1.0",
+  "input_sha256": "61feb622cc8a8b0c00ec8fe395d8d6c4bd4c0f0d918d994a324313c5024f7c8c",
+  "card_count": 6,
+  "variants_per_card": 3,
+  "selection": "stable sample-ID order, round-robin within structural family",
+  "source_files": {
+    "__init__.py": "39bf1f1d5bf2cd368576a9d4426b7f8374d35e674be69cd8043ff69fbcf2075d",
+    "base_renderer.py": "1e1bec07fab87c42459300542cd65248914af380f63549f44d0ed1f13ba4a252",
+    "chatito.py": "9c6beebb6a64644b1c84432b605dcc58cef71db1849edbc054dc505ebc453a0f",
+    "cli.py": "a6641f799e5de9d8c1c7a66a51e7f6a4ad7e2d10820f3afd339145de41e0903c",
+    "renderer.py": "df77354c4bc2325fa3685c74acadec06b0973b8b0dbbd5e96acd54f8ffaf0dc5",
+    "vocabulary.py": "046ec83a8043f36adaa21d6a6d35678dad824c291b24c366f5d8ff26c4d95fee"
+  },
+  "artifacts": {
+    "templates.chatito": "3422fd091e0918372ec2f16259c4f75f55f77eddc7374271d3509d5dba669db7",
+    "variants.jsonl": "1a20b7019f400345c596efa7e9b1c2a71dbb7b18e4e775ca1fe01d9a8ede75c6",
+    "selected.jsonl": "2b4701eb77c7c112d7a0e7cd02064ef4cf9faf85db1c73e6f78a54ad15e1bb90"
+  },
+  "chatito_verification": {
+    "status": "passed",
+    "executions": 2,
+    "byte_identical": true,
+    "exact_variant_match": true,
+    "intent_count": 6,
+    "variant_count": 18,
+    "compiled_sha256": "c00e8fe98593a554003a1061f46f253c40421f88d60266d9b0032504ddd3a2f1",
+    "grammar_sha256": "3422fd091e0918372ec2f16259c4f75f55f77eddc7374271d3509d5dba669db7",
+    "runtime_package_lock_sha256": "6382f12a6d45abc2af30800f42b130cacb211c806db423ebaa27c7eee3eb804f"
+  }
+}

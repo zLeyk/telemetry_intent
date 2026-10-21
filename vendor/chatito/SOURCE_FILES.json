@@ -1,0 +1,62 @@
+{
+  "upstream": "https://github.com/rodrigopivi/Chatito",
+  "revision": "8ad5d9835e1a0c7b95af7693cb58c0320ffc806f",
+  "unchanged_source_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "f14a1ab770a75b2d04643578d5fa945790d24289a82172c65db5e601005599b1"
+    },
+    {
+      "path": "parser/chatito.js",
+      "sha256": "226d802b48edc9b41b26c8341302d3f916fdb5c21be0612cab7d8281fed9fcc2"
+    },
+    {
+      "path": "parser/chatito.pegjs",
+      "sha256": "62f273084f68a239289099fb2304e1f5c44817667d7308e155af3b92831395c7"
+    },
+    {
+      "path": "src/adapters/flair.ts",
+      "sha256": "a07eb73228fec075643510120a64b961ecc82a6058a20c1815716e9a6802df10"
+    },
+    {
+      "path": "src/adapters/luis.ts",
+      "sha256": "10e0c91ee1eb05ba9ab85e54a0480671a20a06fa7b4a3982ebe8c04bc54149c2"
+    },
+    {
+      "path": "src/adapters/rasa.ts",
+      "sha256": "10a541974497ca997ed8d4ebf4d1835b983a96563f6dc5d0e4ba866218465b5d"
+    },
+    {
+      "path": "src/adapters/snips.ts",
+      "sha256": "ec626a88b808d788dc6a088fea0fe6bd7c0f0930327b48574b95eaf386a2eaa6"
+    },
+    {
+      "path": "src/adapters/web.ts",
+      "sha256": "ebd2d3812b22c5b5e2f19e7a9d47078003ee758e5f022cbd1a1009dc8a0ca77b"
+    },
+    {
+      "path": "src/bin.ts",
+      "sha256": "31abc014e148ff4207f935f839192795ae838fe1ffad466b48cfa72738bcd521"
+    },
+    {
+      "path": "src/main.ts",
+      "sha256": "56e47cb2de6e0e46b6fa46ba8e5b3c869118b0f4f5f578a7322242b5d336246f"
+    },
+    {
+      "path": "src/simpleTokenizer.ts",
+      "sha256": "8c5ba2656f2127d7e8e25897f0caaa31723c5351afd9b6c44af5997a123a4026"
+    },
+    {
+      "path": "src/types.ts",
+      "sha256": "d03d6cb0679f50f5eeea1f349ee173991ed87f0a1ce317749cb502e9cc0fbbf3"
+    },
+    {
+      "path": "src/utils.ts",
+      "sha256": "582c1e5d6c94ee45fe645a72b0b1df6ffcd0b3f66cde0834c8f6765798311846"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "61257427cf8b49f884fe6bba2bfc07b50866d4bc2560f8bb0c0e9f3326751e4b"
+    }
+  ]
+}
